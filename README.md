@@ -12,8 +12,10 @@ See the [ConfirmEdit extension page](http://www.mediawiki.org/wiki/Extension:Con
 
 3. Add the following lines to the end of your LocalSettings.php:
 
-    require_once( "$IP/extensions/ConfirmEdit/AreYouAHumanCaptcha.php" );
-    $wgCaptchaClass = 'AreYouAHumanCaptcha';
+````php
+require_once( "$IP/extensions/ConfirmEdit/AreYouAHumanCaptcha.php" );
+$wgCaptchaClass = 'AreYouAHumanCaptcha';
+````
 
 4. Edit the `AreYouAHuman/ayah_config.php` file and add your `AYAH_PUBLISHER_KEY` and `AYAH_SCORING_KEY`.
 
