@@ -74,6 +74,6 @@ class AreYouAHumanCaptcha extends SimpleCaptcha {
 	function showHelp() {
 		global $wgOut;
 		$wgOut->setPageTitle( wfMessage( 'captchahelp-title' )->text() );
-		$wgOut->addWikiText( wfMessage( 'areyouahumancaptcha-text' )->text() );
+		$wgOut->addWikiText( wfMessage( 'areyouahumancaptchahelp-text' )->text() );
 	}
 }
