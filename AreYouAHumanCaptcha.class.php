@@ -41,6 +41,10 @@ class AreYouAHumanCaptcha extends SimpleCaptcha {
 		return $ayah->scoreResult();
 	}
 
+        /* Suppress redundant generation of SimpleCaptcha itself */
+	function addCaptchaAPI( &$resultArr ) {
+	}
+
 	/**
 	* Gets the HTML that will be displayed on a form.
 	*
@@ -48,7 +52,7 @@ class AreYouAHumanCaptcha extends SimpleCaptcha {
 	*/
 	function getForm() {
 		$ayah = new AYAH();
-		return $ayah->getPublisherHTML();
+		return $ayah->getPublisherHTML() . '<noscript>' . wfMessage( 'areyouahumancaptcha-nojs' )->parse() . '</noscript>';
 	}
 
 	/**
@@ -71,8 +75,5 @@ class AreYouAHumanCaptcha extends SimpleCaptcha {
 		global $wgOut;
 		$wgOut->setPageTitle( wfMsg( 'captchahelp-title' ) );
 		$wgOut->addWikiText( wfMsg( 'areyouahumancaptcha-text' ) );
-		if ( CaptchaStore::get()->cookiesNeeded() ) {
-			$wgOut->addWikiText( wfMsg( 'captchahelp-cookies-needed' ) );
-		}
 	}
 }
