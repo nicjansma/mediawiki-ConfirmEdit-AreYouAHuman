@@ -42,7 +42,7 @@ $messages['en'] = array(
 	'areyouahumancaptchahelp-text' => "Web sites that accept contributions from the public, like this wiki, are often abused by spammers who use automated tools to add their links to many sites.
 While these spam links can be removed, they are a significant nuisance.
 
-Sometimes, especially when adding new web links to a page, the wiki may ask you to answer a question.
+Sometimes, especially when adding new web links to a page, the wiki may ask you to play a very short game in which you match related objects.
 Since this is a task that is hard to automate, it will allow most real humans to make their contributions while stopping most spammers and other robotic attackers.
 
 Please contact the [[{{MediaWiki:Grouppage-sysop}}|site administrators]] for assistance if this is unexpectedly preventing you from making legitimate contributions.
