@@ -38,7 +38,7 @@ $messages['en'] = array(
 	'areyouahumancaptcha-create' => 'To create the page, please prove you are a human by playing the game below ([[Special:Captcha/help|more info]]):',
 	'areyouahumancaptcha-edit' => 'To edit this page, please prove you are a human by playing the game below ([[Special:Captcha/help|more info]]):',
 	'areyouahumancaptcha-sendemail' => 'To help protect against automated spamming, please prove you are a human by playing the game below ([[Special:Captcha/help|more info]]):',
-        'areyouahumancaptcha-nojs' => '\'\'\'<span style="font-size: 150%; color: red;">You need to enable JavaScript in order to verify by PlayThru.</span>\'\'\'',
+	'areyouahumancaptcha-nojs' => '\'\'\'<span style="font-size: 150%; color: red;">You need to enable JavaScript in order to verify by PlayThru.</span>\'\'\'',
 	'areyouahumancaptchahelp-text' => "Web sites that accept contributions from the public, like this wiki, are often abused by spammers who use automated tools to add their links to many sites.
 While these spam links can be removed, they are a significant nuisance.
 

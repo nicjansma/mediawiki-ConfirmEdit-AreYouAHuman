@@ -41,7 +41,7 @@ class AreYouAHumanCaptcha extends SimpleCaptcha {
 		return $ayah->scoreResult();
 	}
 
-        /* Suppress redundant generation of SimpleCaptcha itself */
+	/* Suppress redundant generation of SimpleCaptcha itself */
 	function addCaptchaAPI( &$resultArr ) {
 	}
 
