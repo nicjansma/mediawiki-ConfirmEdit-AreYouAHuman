@@ -22,3 +22,9 @@ $wgCaptchaClass = 'AreYouAHumanCaptcha';
 # Version History
 
 * 2013-05-07: Version 1.0: Initial release
+* 2013-05-28: Version 1.1: Adds no JavaScript support, removed deprecated functions
+
+# Contributors
+
+* [Nic Jansma](http://nicj.net)
+* [Strix](https://github.com/strixaluco)

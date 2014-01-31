@@ -37,3 +37,13 @@ $wgCaptchaClass = 'AreYouAHumanCaptcha';
 
 $wgExtensionMessagesFiles['AreYouAHumanCaptcha'] = dirname( __FILE__ ) . '/AreYouAHumanCaptcha.i18n.php';
 $wgAutoloadClasses['AreYouAHumanCaptcha'] = dirname( __FILE__ ) . '/AreYouAHumanCaptcha.class.php';
+
+// Extension credits that show up on Special:Version
+$wgExtensionCredits['specialpage'][] = array(
+    'name' => 'ConfirmEdit:AreYouAHuman',
+    'author' => 'Nic Jansma, Strix, et al.',
+    'url' => 'https://github.com/nicjansma/mediawiki-ConfirmEdit-AreYouAHuman',
+    'description' => 'ConfirmEdit AreYouAHuman integration',
+    'version' => 'v1.1.0',
+    'type' => 'antispam'
+);
