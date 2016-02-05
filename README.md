@@ -1,3 +1,9 @@
+# No Longer Recommended
+
+The _Are You A Human PlayThru Service_ is being turned off on March 1st, 2016.
+
+See this [blog post from areyouahuman.com](http://blog.areyouahuman.com/goodbye_playthru/).
+
 # AreYouAHuman ConfirmEdit extension
 
 This is a [Are You A Human](http://areyouahuman.com) [ConfirmEdit](http://www.mediawiki.org/wiki/Extension:ConfirmEdit) extension for [MediaWiki](http://www.mediawiki.org/).
